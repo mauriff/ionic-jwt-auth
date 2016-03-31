@@ -1,11 +1,9 @@
 angular.module('starter')
- 
+
 .constant('AUTH_EVENTS', {
-  notAuthenticated: 'auth-not-authenticated',
-  notAuthorized: 'auth-not-authorized'
+  notAuthenticated: 'auth-not-authenticated'
 })
- 
-.constant('USER_ROLES', {
-  admin: 'admin_role',
-  public: 'public_role'
+
+.constant('API_ENDPOINT', {
+  url: 'http://ec2-54-94-175-253.sa-east-1.compute.amazonaws.com/pimperpowerapi/api'
 });
